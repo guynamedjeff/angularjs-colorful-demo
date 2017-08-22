@@ -1,0 +1,14 @@
+.color-palette {
+  display: flex;
+  margin: auto;
+  border: 1px solid $border-color;
+  background-color: $content-background;
+  padding: 2%;
+  max-width: 1200px;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  color {
+    margin: 2%;
+  }
+}

@@ -1,0 +1,24 @@
+.color-wrapper {
+  border: 1px solid $border-color;
+  padding: 5%;
+  border-radius: 5px;
+  width: 170px;
+
+  .color-code {
+    font-weight: 600;
+    padding-bottom: 5px;
+  }
+
+  .color-box {
+    width: 95%;
+    height: 150px;
+    background-color: #000000;
+    margin: auto;
+    border: 1px solid $color-border;
+    cursor: pointer;
+  }
+}
+
+.color-wrapper.selected {
+  background-color: $selected-color;
+}

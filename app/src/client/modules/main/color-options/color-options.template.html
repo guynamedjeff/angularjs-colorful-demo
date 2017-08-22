@@ -1,0 +1,7 @@
+<div class="color-palette" ng-style="{'background': $ctrl.favoriteColor}">
+    <color ng-repeat="color in $ctrl.colorPalette"
+      color="color" max-selections="$ctrl.maxSelections"
+      add-color="$ctrl.addColor(color)" remove-color="$ctrl.removeColor(color)">
+      <div class="color-code">rgb({{color}})</div>
+    </color>
+</div>

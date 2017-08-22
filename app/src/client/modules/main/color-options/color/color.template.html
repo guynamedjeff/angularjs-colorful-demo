@@ -1,0 +1,4 @@
+<div class="color-wrapper" ng-class="{selected: $ctrl.isSelected}">
+  <div ng-transclude></div>
+  <div class="color-box" ng-click="$ctrl.toggleSelect()" ng-style="{'background-color':'rgb({{$ctrl.color}})'}"></div>
+</div>

@@ -27,6 +27,7 @@ const src = {
   css: './app/css',
   html: './app/src/client/**/*.html',
   js: './app/src/client/modules/**/*.js',
+  specjs: '!./app/src/client/modules/**/*spec.js',
   modules: './app/src/client/modules/**/*.module.js',
   nodejs: './app/src/server/**/*.js',
   staticImages: './app/src/client/static/images/*.ico',
@@ -58,7 +59,7 @@ gulp.task('html', function() {
 
 // Handle scripts.
 gulp.task('js', function() {
-  gulp.src([src.modules, src.js])
+  gulp.src([src.modules, src.js, src.specjs])
   // .pipe(sourcemaps.init())
     .pipe(babel({presets: ['es2015']})).pipe(concat('./app/build/client/static/app.js')).pipe(ngAnnotate()).pipe(uglify())
   // .pipe(sourcemaps.write())

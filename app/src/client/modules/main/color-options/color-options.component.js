@@ -34,7 +34,7 @@
 
         // Adds a color to the favorite colors array and computes the background.
         this.addColor = (color) => {
-          if (!this.maxSelection) {
+          if (!this.maxSelections) {
             this.favoriteColors.push(color);
             this.count++;
           }

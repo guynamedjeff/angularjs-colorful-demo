@@ -25,6 +25,7 @@ Other concepts include:
 * Flexbox
 * Separation of concerns
 * Dynamic generation of randomized data
+* Unit and E2E testing
 
 # Technologies
 
@@ -33,3 +34,4 @@ Other concepts include:
 * Gulp
 * Sass
 * Atom
+* Jasmine/Karma

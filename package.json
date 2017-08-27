@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An AngularJS v1.6 demonstration.",
   "engines": {
-    "node": "7.10.1"
+    "node": "6.11"
   },
   "main": "main.js",
   "scripts": {
@@ -34,15 +34,10 @@
     "angular-resource": "^1.6.6",
     "angular-ui-bootstrap": "^2.5.0",
     "body-parser": "^1.17.1",
-    "busboy": "^0.2.14",
-    "cookie-parser": "^1.4.3",
     "cssify": "^1.0.3",
     "express": "^4.15.2",
-    "express-myconnection": "^1.0.4",
     "jquery": "^3.2.1",
-    "lodash": "^4.17.4",
-    "morgan": "^1.8.1",
-    "multer": "^1.3.0"
+    "morgan": "^1.8.1"
   },
   "browserify": {
     "transform": [
@@ -69,9 +64,9 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^3.7.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^3.2.0",
-    "gulp-minify-css": "^1.2.4",
     "gulp-minify-html": "^1.0.6",
     "gulp-ng-annotate": "^2.0.0",
     "gulp-nodemon": "^2.2.1",
@@ -82,8 +77,10 @@
     "jasmine-core": "^2.7.0",
     "karma": "^1.7.0",
     "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
     "karma-firefox-launcher": "^1.0.1",
     "karma-jasmine": "^1.1.0",
+    "karma-ng-html2js-preprocessor": "^1.0.0",
     "karma-phantomjs-launcher": "^1.0.4",
     "phantomjs-prebuilt": "^2.1.15",
     "protractor": "^5.1.2",
